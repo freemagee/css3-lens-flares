@@ -8,7 +8,7 @@ What strikes me as slightly ironic is the web industry is beginning to create ef
 
 I present to you an effect that represents an almost humourous level when mentioned to design professionals, the humble Photoshop lens flare.
 
-![Example of a Photoshop lens-flare](https://freemagee.github.io/css3-lens-flares/lens-flare-example.jpg)
+![Example of a Photoshop lens-flare](lens-flare-example.jpg)
 
 > Example of a Photoshop lens-flare
 
@@ -116,7 +116,7 @@ The first pair of percentages after the `background: -webkit-radial-gradient(` a
 
 The final part of the style declaration is the fun part – setting the colour values and ‘stops’. I used my RGB colour picker in Photoshop to get some values for my first circle. I chose a dark green (R:34, G:45, B:24) with a low opacity of 0.2 (max is 1.0) for the first colour. The second colour in this gradient is a brighter green (R:80, G:201, B:32) with a opacity value of 0.6. What this produces is a gradient that goes from a dark green towards the center to a bright green towards the edges. The opacities are important because this allows the circles to interact with each other and for circles to be visible within each other.
 
-![Example of gradient](https://freemagee.github.io/css3-lens-flares/gradient-example.png)
+![Example of gradient](gradient-example.png)
 
 > Example of colour stops on a gradient
 

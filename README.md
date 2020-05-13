@@ -8,9 +8,9 @@ What strikes me as slightly ironic is the web industry is beginning to create ef
 
 I present to you an effect that represents an almost humourous level when mentioned to design professionals, the humble Photoshop lens flare.
 
-![Example of a Photoshop lens-flare](http://neilmagee.com/library/img/article-assets/lens-flare-example.jpg)
+![Example of a Photoshop lens-flare](https://freemagee.github.io/css3-lens-flares/lens-flare-example.jpg)
 
-Example of a Photoshop lens-flare
+> Example of a Photoshop lens-flare
 
 The example above is the Photoshop lens flare in one of its basic forms. It was arguably over-used on images many years ago, and is probably still put to good use in dental advertisements to this day. So I have decided to take time to honour the lens flare and try to recreate the effect in CSS. It’s only fair as CSS matures that this effect is available in your toolbox.
 
@@ -116,9 +116,9 @@ The first pair of percentages after the `background: -webkit-radial-gradient(` a
 
 The final part of the style declaration is the fun part – setting the colour values and ‘stops’. I used my RGB colour picker in Photoshop to get some values for my first circle. I chose a dark green (R:34, G:45, B:24) with a low opacity of 0.2 (max is 1.0) for the first colour. The second colour in this gradient is a brighter green (R:80, G:201, B:32) with a opacity value of 0.6. What this produces is a gradient that goes from a dark green towards the center to a bright green towards the edges. The opacities are important because this allows the circles to interact with each other and for circles to be visible within each other.
 
-![Example of gradient](http://neilmagee.com/library/img/article-assets/gradient-example.png)
+![Example of gradient](https://freemagee.github.io/css3-lens-flares/gradient-example.png)
 
-Example of colour stops on a gradient
+> Example of colour stops on a gradient
 
 You may have noticed the percentage values after the RGBA declarations in the CSS rule. These are the colour ‘stops’ that the gradient adheres to. The above example shows a literal interpretation of colour stops on a linear-gradient. If you imagine a line from 0% to 100%, then the first colour begins at a point that represents 0% on this line, the second colour begins at 50% and finally blends into the third colour at 100%. The effect as seen in the example is a gradient that blends from blue to yellow and to blue once more.
 
